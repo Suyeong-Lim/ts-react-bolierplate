@@ -1,8 +1,14 @@
-import React from "react";
-import styled from "styled-components";
+import React, { Fragment } from "react";
+import Router from "./Router";
+import GlobalStyle from "./GlobalStyle";
 
 function App() {
-  return <></>;
+  return (
+    <Fragment>
+      <GlobalStyle />
+      <Router />
+    </Fragment>
+  );
 }
 
 export default App;
